@@ -1,0 +1,502 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+    margin: 0;
+    font-family: "Roboto", sans-serif;
+}
+
+.flexbox-container {
+    /* width: 100%; */
+
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    margin-left: 150px;
+    margin-right: 150px;
+
+}
+
+
+.flexbox-item1 {
+    margin: 15px;
+
+
+}
+
+.flexbox-item2 {
+
+    padding-top: 3;
+    display: flex;
+    gap: 30px;
+
+
+    align-items: center;
+
+}
+
+.logo {
+    height: 35px;
+    padding-top: 30px;
+}
+
+.small {
+    margin-left: 150px;
+    margin-right: 150px;
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px;
+
+}
+
+.s1 {
+
+
+    flex: 1;
+}
+
+.S2 {
+
+    flex: 1;
+
+}
+
+.hd {
+    font-size: 55px;
+    line-height: 1rem;
+    margin-left: 180px;
+    margin-top: 50px;
+
+
+}
+
+.img1 {
+
+    display: flex;
+    padding: 20px;
+
+}
+
+.im2 {
+    margin-left: 40px;
+}
+
+.blue {
+    color: rgb(16, 88, 243);
+}
+
+.way {
+    display: flex;
+    margin-left: 200px;
+    font-size: 45px;
+    margin-top: 50px;
+
+}
+
+.im1-1 {
+    margin-left: -30px;
+
+}
+
+.three {
+    display: flex;
+    margin-left: 200px;
+    font-size: 25px;
+    flex-direction: column;
+
+}
+
+.pic {
+    display: flex;
+    flex-direction: ROW;
+    font-weight: bold;
+}
+
+.threee {
+    display: flex;
+    padding-left: 30px;
+    font-size: 25px;
+    flex-direction: column;
+
+
+}
+
+.threeee {
+    display: flex;
+    padding-left: 30px;
+    flex-direction: column;
+    font-size: 25px;
+}
+
+.four {
+    display: flex;
+    padding-left: 30px;
+    font-size: 25px;
+    flex-direction: column;
+}
+
+.store {
+    margin-left: 200px;
+    font-size: 45px;
+    font-weight: bold;
+
+}
+
+.roof {
+    margin-left: 200px;
+
+    flex-direction: column;
+    color: rgb(16, 88, 243);
+    font-weight: bold;
+    font-size: small;
+}
+
+.year {
+    margin-left: 200px;
+    margin-top: 80px;
+
+    flex-direction: column;
+    font-size: 40px;
+    font-weight: bold;
+
+}
+
+.pgf {
+    margin-left: 180px;
+    margin-right: 180px;
+    display: flex;
+    flex-direction: row;
+
+    font-weight: 350;
+
+}
+
+.pfff {
+    color: rgb(16, 88, 243);
+
+
+}
+
+.secondlast {
+    display: flex;
+    flex-direction: row;
+    height: 350px;
+    margin-top: 200px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+    background-color: rgba(217, 220, 236, 0.941);
+
+}
+
+.sec {
+    margin-left: 40px;
+    flex: 1;
+
+
+
+}
+
+.fb {
+    margin-right: 20px;
+}
+
+.ond {
+    flex: 1;
+}
+
+.last {
+    flex: 1;
+    font-size: 18px;
+
+}
+
+.test {
+    margin-top: -20px;
+
+}
+
+.tel {
+    color: rgb(16, 88, 243);
+    flex-direction: row;
+    font-size: 20px;
+
+}
+
+.log {
+    display: flex;
+    height: 30px;
+    width: 100px;
+
+    float: top;
+
+}
+
+.d {
+    height: 150px;
+}
+
+.two-box {
+    display: flex;
+    height: 260px;
+    margin-left: 200px;
+    margin-right: 200px;
+
+
+}
+
+.box-one {
+    flex: 1;
+
+    background-color: rgb(26, 71, 247);
+    margin-right: 20px;
+    color: #fff;
+
+}
+.chat{
+    height: 80 px;
+}
+.button-chat{
+   height: 60px;
+   width: 150px;
+   
+
+}
+
+.box-two {
+    flex: 1;
+    margin-left: 20px;
+    background-color: rgb(26, 71, 247);
+    color: #fff;
+}
+
+
+.bold {
+    font-size: 35px;
+    font-weight: bold;
+    margin-left: 30px;
+}
+
+.s {
+    font-size: small;
+    margin-left: 30px;
+}
+
+.black-one {
+    margin-top: 150px;
+
+    height: 200px;
+    background-color: rgba(23, 19, 19, 0.93);
+
+    display: flex;
+    gap: 0;
+    align-items: center;
+    color: #fff;
+}
+
+.black-two {
+    flex: 1;
+    margin-left: 200px;
+
+}
+
+.black-three {
+    margin-top: 70px;
+    margin-right: 200px;
+
+    display: flex;
+    float: right;
+
+
+
+}
+
+.srch {
+    height: 30px;
+    width: 30px;
+}
+
+.butttton {
+    height: 20px;
+    width: 10px;
+}
+
+.form {
+    margin-top: -90px;
+    height: 50px;
+
+    /* margin-right: 80px; */
+
+
+}
+
+.con {
+    flex: 1;
+    height: 19px;
+    width: 19px;
+    float: right;
+
+}
+
+.double-icon {
+    height: 50px;
+    width: 50px;
+    /* justify-content: space-between; */
+    display: flex;
+   background-color: transparent;
+}
+
+.text {
+    flex: 1;
+    margin-left: 200px;
+
+}
+
+.footer {
+    display: flex;
+    background-color: rgba(23, 19, 19, 0.93);
+   
+
+    color: #f3f8f7;
+}
+
+.logos {
+    height: 25px;
+
+    width: 25px;
+    margin-left: 50px;
+    margin-right: 20px;
+
+    /* color: #fff;
+    background-color: #fff; */
+
+}
+
+.center-nav {
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 180px;
+    margin-right: 180px; */
+    text-decoration: none;
+    /* background-color: rgba(23, 19, 19, 0.822); */
+   
+}
+
+.menu-list {
+    flex-direction: row;
+    text-decoration: none;
+
+}
+
+.nav-list {
+    flex: 1;
+
+
+
+
+}
+
+.input {
+    width: 400px;
+}
+
+.nav-list>a {
+
+    text-decoration: none;
+    color: #edecf0;
+    /* padding: 6px 7px; */
+    width: 2rem;
+    font-size: 15px;
+    font-weight: 500;
+    font-stretch: expanded;
+    letter-spacing: 1px;
+    /* margin-left: 35px; */
+
+}
+
+.closing line {
+    height: .25px;
+    width: 100%;
+    background-color: #edecf0;
+    margin-right: 180px;
+    margin-left: 180px;
+}
+
+
+
+.nav-list-1>a {
+
+    text-decoration: none;
+    color: #edecf0;
+    /* padding: 6px 7px; */
+    width: 2rem;
+    font-size: 13px;
+    font-stretch: expanded;
+    letter-spacing: 1px;
+    margin-left: 35px;
+
+}
+
+.center-nav {
+    display: flex;
+    flex-direction: row;
+    margin-left: 170px;
+    margin-right: 180px;
+    text-decoration: none;
+    /* background-color: rgba(23, 19, 19, 0.822); */
+
+
+}
+
+.center-nav-1 {
+    display: flex;
+    flex-direction: row;
+    /* margin-left: 180px;
+    margin-right: 180px;  */
+    text-decoration: none;
+    /* background-color: rgba(23, 19, 19, 0.822); */
+    padding-left: 160px;
+
+
+}
+
+.navbar {
+    text-align: center;
+    
+
+}
+
+.main {
+    background-color:rgba(23, 19, 19, 0.93);
+margin-top: px;
+}
+
+.form {
+    display: flex;
+    background-color: rgba(23, 19, 19, 0.93);
+
+}
+
+.testbar {
+    height: 50px;
+    width: 350px;
+}
+
+.search-bar {
+    width: 425px;
+    background-color: #fff;
+    background-color: transparent;
+}
+
+.end-navbar{
+    margin-top: 14px white;
+}
+.line{
+    height: 2px;
+    margin-left: 200px;
+    margin-right: 200px;
+    width: 160;
+    background-color: #edecf0;
+}
